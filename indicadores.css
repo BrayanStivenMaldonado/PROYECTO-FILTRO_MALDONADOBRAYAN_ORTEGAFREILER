@@ -16,25 +16,28 @@
 body{
     height: 100vh;
     overflow: hidden;
-}
-
-.Inicio{
-    position: absolute;
     display: flex;
     background-color: white;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
+.Superior{
+    display: flex;
+    flex-direction: row;
+}
 
 .Navbar{
-    margin-top: 0;
-    width: 80%;
-    height: 4vw;
-    border-bottom: 1px solid gray;
+    padding-left: 9vw;
+    margin-top: 0%;
+    width: 100%;
+    height: 3.5vw;
+    border-bottom: 2px solid gray;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     font-family: Regular;
     font-size: 1vw;
@@ -51,12 +54,151 @@ body{
 }
 
 #LogoNav{
-    width: 3vw;
+    width: 2vw;
 }
 
 .Ajustes{
+    padding-left: -10vw;
     margin-top: 0;
-    width: 20%;
+    width: 30%;
+    height: 3.5vw;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.Ajustes img{
+    width: 1vw;
+    height: 1vw;
+    padding-left: 1vw;
+}
+
+#CaraPedro{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.Contenido{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Panel{
+    margin-top: 1vw;
+    font-family: Regular;
+    font-size: 2vw;
+}
+
+#Texto1{
+    font-family: Light;
+    font-size: 1vw;
+    margin-top: -0.3vw;
+}
+
+.Nombres{
+    width: 80%;
+    height: 2vw;
+    font-family: Regular;
+    font-size: 1.10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Datos1{
+
+    width: 80%;
     height: 4vw;
-    border-bottom: 1px solid gray;
+    font-family: Light;
+    font-size: 1vw;
+    border: 1px solid gray;
+    border-radius: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.Datos2{
+    margin-top: 0.7vw;
+    width: 80%;
+    height: 4vw;
+    font-family: Light;
+    font-size: 1vw;
+    border: 1px solid gray;
+    border-radius: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.Datos3{
+    margin-top: 0.7vw;
+    width: 80%;
+    height: 4vw;
+    font-family: Light;
+    font-size: 1vw;
+    border: 1px solid gray;
+    border-radius: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.Datos4{
+    margin-top: 0.7vw;
+    width: 80%;
+    height: 4vw;
+    font-family: Light;
+    font-size: 1vw;
+    border: 1px solid gray;
+    border-radius: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.Datos5{
+    margin-top: 0.7vw;
+    width: 80%;
+    height: 4vw;
+    font-family: Light;
+    font-size: 1vw;
+    border: 1px solid gray;
+    border-radius: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.Datos6{
+    margin-top: 0.7vw;
+    width: 80%;
+    height: 4vw;
+    font-family: Light;
+    font-size: 1vw;
+    border: 1px solid gray;
+    border-radius: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Boton{
+    margin-top: 2vw;
+    width: 15%;
+    height: 3vw;
+    font-family: Light;
+    color: white;
+    font-size: 1.2vw;
+    background-color: #ff6c2c;
+    border-radius: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
