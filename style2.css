@@ -98,17 +98,3 @@ body{
     100%{opacity: 1000%;}
 }
 
-.Inicio{
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background-color: white;
-    animation-name: General;
-    animation-duration: 4s;
-}
-
-@keyframes General {
-    0%{opacity: 0%;}
-    90%{opacity: 0%;}
-    100% {opacity: 100%;}
-}

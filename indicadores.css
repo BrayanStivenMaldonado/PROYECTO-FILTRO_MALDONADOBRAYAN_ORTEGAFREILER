@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Light;
+    src: url(media/MyriadPro-Light.otf);
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(media/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: Italica;
+    src: url(media/MYRIADPRO-SEMIBOLDIT.OTF);
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Inicio{
+    position: absolute;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+
+.Navbar{
+    margin-top: 0;
+    width: 80%;
+    height: 4vw;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Regular;
+    font-size: 1vw;
+}
+
+#NavText{
+    position: absolute;
+    margin-top: 0.3vw;
+    margin-left: 0.5vw;
+}
+
+.Navbar img{
+    width: 1.5vw;
+}
+
+#LogoNav{
+    width: 3vw;
+}
+
+.Ajustes{
+    margin-top: 0;
+    width: 20%;
+    height: 4vw;
+    border-bottom: 1px solid gray;
+}
