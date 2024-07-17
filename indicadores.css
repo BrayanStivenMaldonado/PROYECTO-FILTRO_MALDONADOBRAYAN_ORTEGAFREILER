@@ -100,14 +100,14 @@ body{
 }
 
 .Nombres{
-    width: 80%;
+    width: 78%;
     height: 2vw;
     font-family: Regular;
     font-size: 1.10vw;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .Datos1{
@@ -121,7 +121,6 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
 }
 .Datos2{
     margin-top: 0.7vw;
@@ -134,7 +133,6 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
 }
 .Datos3{
     margin-top: 0.7vw;
@@ -147,7 +145,6 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
 }
 .Datos4{
     margin-top: 0.7vw;
@@ -160,7 +157,6 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
 }
 .Datos5{
     margin-top: 0.7vw;
@@ -173,7 +169,6 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
 }
 .Datos6{
     margin-top: 0.7vw;
@@ -186,7 +181,6 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
 }
 
 .Boton{
@@ -201,4 +195,49 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#IndicadorT{
+    position: absolute;
+    margin-left: 2.5vw;
+}
+
+#Descripcion{
+    position: absolute;
+    margin-left: 10.2vw;
+}
+
+#Categoria{
+    position: absolute;
+    margin-left: 20.4vw;
+}
+
+#FechaI{
+    position: absolute;
+    margin-left: 28.2vw;
+}
+
+#FechaF{
+    position: absolute;
+    margin-left: 40vw;
+}
+
+#Formula{
+    position: absolute;
+    margin-left: 50.4vw;
+}
+
+#Frecuencia{
+    position: absolute;
+    margin-left: 59.2vw;
+}
+
+#Porcentaje{
+    position: absolute;
+    margin-left: 68vw;
+}
+
+#Area{
+    position: absolute;
+    margin-left: 74vw;
 }
