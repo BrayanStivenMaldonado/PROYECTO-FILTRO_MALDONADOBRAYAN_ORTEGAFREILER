@@ -79,85 +79,31 @@ body{
     height: 2.5vw;
 }
 
-.Contenido{
-    margin-left: 0%;
-    width: 100%;
-    height: 96.5vh;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 1vw;
-}
 
-
-#indicador{
-    width:20vw ;
-    font-size: 1.5vw;
-    margin-top: 5vw;
-    margin-left: 9vw ;
-   
-}
-
-#descripcion{
-    width:20vw ;
-    font-size: 1.5vw;
-    margin-top: 5vw;
-    margin-left: 9vw ;
-}
-#categoria{
-    width:20vw ;
-    font-size: 1.5vw;
-    margin-top: 5vw;
-    margin-left: 9vw ;
-}
-#fecha_de_inicio{
-    width:20vw ;
-    font-size: 1.5vw;
-    margin-top: 5vw;
-    margin-left: 9vw ;
-}
-#fecha_de_terminacion{
-    width:20vw ;
-    font-size: 1.5vw;
-    margin-top: 5vw;
-    margin-left: 7vw ;
-    
-}
-#datetime{
-    width: 20vw;
-    height: 5vw;
-    margin-left: 5vw ;
-    border: 1px solid orange;
-    border-radius: 5vw;
-    color: gray;
-}
-#tex1{
-    width: 20vw;
-    height: 5vw;
-    margin-left: 5vw ;
-    border: 1px solid orange;
-    border-radius: 5vw;
-
-}
-
-.boton1{
-   
-    position: absolute;
-    background-color: #ff6f2c;
-    border-radius: 5vw ;
-    text-decoration: none;
-    width: 15vw;
-    height: 3vw;
-    left: 42.5vw;
+#ayuda1{
+    position:relative;
     margin: auto;
     margin-top: 4vw;
+    left: 27.5vw;
+    width: 50vw;
+    text-align: left;
+    color: gray;
+    font-size: 1.4vw;
+
+}
+.barramedia{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    margin-top:3vw ;
+    font-size: 1.3vw;
     
 
 }
 
-.boton1 a{
-    text-decoration: none;
-    font-size: 1.3vw;
+.textos{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 3vw;
+    background-color: aqua;
 }
-
-
-   
