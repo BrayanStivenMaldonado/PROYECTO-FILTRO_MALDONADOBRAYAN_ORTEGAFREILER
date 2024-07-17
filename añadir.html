@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>añadir</title>
+    <title>Añadir</title>
     <link rel="stylesheet" href="añadir.css">
 </head>
 <body>
     <div class="Superior">
         <div class="Navbar">
-            <p><img src="media/Add.png"><span id="NavText">Añadir</span></p>
-            <p><img src="media/Reload.png"><span id="NavText">Refrescar</span></p>
-            <p><img src="media/Delete.png"><span id="NavText">Eliminar</span></p>
-            <img id="LogoNav" src="media/LogoNav.png">
-            <p><img src="media/Report.png"><span id="NavText">Reportar</span></p>
-            <p><img src="media/Help.png"><span id="NavText">Ayuda</span></p>
+            <a href=""><p><img src="media/Add.png"><span id="NavText">Añadir</span></p></a>
+            <a href=""><p><img src="media/Reload.png"><span id="NavText">Refrescar</span></p></a>
+            <a href=""><p><img src="media/Delete.png"><span id="NavText">Eliminar</span></p></a>
+            <a href="indicadores.html"><img id="LogoNav" src="media/LogoNav.png"></a>
+            <a href=""><p><img src="media/Report.png"><span id="NavText">Reportar</span></p></a>
+            <a href=""><p><img src="media/Help.png"><span id="NavText">Ayuda</span></p></a>
         </div>
         <div class="Ajustes">
             <img src="media/Settings.png">
@@ -44,25 +44,28 @@
             <input id="datetime" type="date" value="0000-00-00">
         </label>
         <label  for="">
-            <p id="indicador">FORMULA</p>
+            <p id="formula">FORMULA</p>
             <input id="tex1" type="text">
         </label>
         <label  for="">
-            <p id="indicador">FRECUENCIA</p>
+            <p id="frecuencia">FRECUENCIA</p>
+            <input id="tex1" type="select">
+        </label>
+        <label  for="cumplimiento">
+            <p id="cumplimiento">CUMPLIMIENTO</p>
             <input id="tex1" type="text">
         </label>
         <label  for="">
-            <p id="indicador">CUMPLIMIENTO</p>
-            <input id="tex1" type="text">
+            <p id="area">AREA</p>
+            <select name="Area" aria-placeholder="asdsad" id="SelectArea">
+                <option value=""></option>
+                <option value="">Marketing</option>
+                <option value="">Diseño</option>
+                <option value="">Developers</option>
+                <option value="">Gerencia</option>
+                <option value="">Producción</option>
+            </select>
         </label>
-        <label  for="">
-            <p id="indicador">AREA</p>
-            <input id="tex1" type="text">
-        </label>
-       <div class="boton">
-         <button class="boton1"><a href="">AÑADIR ELEMENTO</a></button>
-       </div>
-        
-       
+       <a href=""><button id="Boton">Añadir Elemento</button></a>  
 </body>
 </html>

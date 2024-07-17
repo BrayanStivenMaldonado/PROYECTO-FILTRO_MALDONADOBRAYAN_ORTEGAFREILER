@@ -47,6 +47,8 @@ body{
     position: absolute;
     margin-top: 0.3vw;
     margin-left: 0.5vw;
+    text-decoration: none ;
+    color: black;
 }
 
 .Navbar img{

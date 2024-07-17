@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ayuda.css">
     <title>ayuda</title>
 </head>
+
 <body>
 
     <div class="Superior">
         <div class="Navbar">
-            <p><img src="media/Add.png"><span id="NavText">Añadir</span></p>
-            <p><img src="media/Reload.png"><span id="NavText">Refrescar</span></p>
-            <p><img src="media/Delete.png"><span id="NavText">Eliminar</span></p>
-            <img id="LogoNav" src="media/LogoNav.png">
-            <p><img src="media/Report.png"><span id="NavText">Reportar</span></p>
-            <p><img src="media/Help.png"><span id="NavText">Ayuda</span></p>
+            <a href="añadir.html"><p><img src="media/Add.png"><span id="NavText">Añadir</span></p></a>
+            <a href=""><p><img src="media/Reload.png"><span id="NavText">Refrescar</span></p></a>
+            <a href="eliminar.html"><p><img src="media/Delete.png"><span id="NavText">Eliminar</span></p></a>
+            <a href="indicadores.html"><img id="LogoNav" src="media/LogoNav.png"></a>
+            <a href="reporte.html"><p><img src="media/Report.png"><span id="NavText">Reportar</span></p></a>
+            <a href=""><p><img src="media/Help.png"><span id="NavText">Ayuda</span></p></a>
         </div>
         <div class="Ajustes">
             <img src="media/Settings.png">
@@ -23,12 +25,44 @@
             <img id="CaraPedro" src="media/CaraPedro.png">
         </div>
     </div>
+
+    <div class="lineaNaranja"></div>
     <div class="ayuda">
-        <input id="ayuda1" type="text" value="¿en que podemos ayudarte?">
+        <input id="ayuda1" type="text" placeholder="¿en que podemos ayudarte?">
+        <img id="lupa" src="media/buscar.png" alt="">
     </div>
     <div class="barramedia">preguntas frecuentes</div>
-    <div class="textos"><p>¿donde estamos ubicados?</p>
-    <p>¿como contactarnos?</p>
-    <p>buzon de sugerencia</p></div>
+    <div class="textos">
+        <div class="texto1">
+            <p>¿donde estamos ubicados?</p>
+        </div>
+        <div class="texto2">
+            <p>¿como contactarnos?</p>
+        </div>
+        <div class="texto3">
+            <p>buzon de sugerencia</p>
+        </div>
+        <img id="mapa" src="media/mapa (1).png" alt="">
+        <img id="telefono" src="media/telefono.png" alt="">
+        <img id="buzon" src="media/buzon.png" alt="">
+        <p id="verubicacion">ver ubicacion</p>
+        <div class="caja1">
+            <p>llamanos <br>
+                +34 913753366 <br>
+                9:00-21:00 <br>
+                lunes - viernes <br>
+                9:00-18:00 <br>
+                sabado <br>
+            </p>
+        </div>
+        <div class="caja2">
+            <p>
+                dejanos tus <br>
+                quejas,sugerencias,reclamos <br>
+                !!!gracias por preferirnos¡¡¡ <br></p>
+        </div>
+
+    </div>
 </body>
+
 </html>
