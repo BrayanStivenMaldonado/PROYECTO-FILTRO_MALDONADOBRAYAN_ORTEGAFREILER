@@ -15,12 +15,13 @@
 
 body{
     height: 100vh;
+    overflow: hidden;
     display: flex;
     background-color: white;
     width: 100%;
     height: 100vh;
     flex-direction: column;
-    margin-left: 0%;
+    margin: 0 auto;
 }
 
 .Superior{
@@ -29,15 +30,14 @@ body{
 }
 
 .Navbar{
-    padding-left: 5vw;
-    margin-top: 0;
-    margin-left: -2vw;
-    width: 70%;
+    padding-left: 9vw;
+    margin-top: 0%;
+    width: 100%;
     height: 3.5vw;
     border-bottom: 2px solid gray;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     font-family: Regular;
     font-size: 1vw;
@@ -54,11 +54,11 @@ body{
 }
 
 #LogoNav{
-    width: 3vw;
+    width: 2vw;
 }
 
 .Ajustes{
-    padding-right: 2vw;
+    padding-left: -10vw;
     margin-top: 0;
     width: 30%;
     height: 3.5vw;
