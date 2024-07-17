@@ -185,9 +185,10 @@ body{
     align-items: center;
 }
 
-.Boton{
+#Boton{
     margin-top: 2vw;
-    width: 15%;
+    width: 15vw;
+    text-decoration: none;
     height: 3vw;
     font-family: Light;
     color: white;
@@ -197,41 +198,52 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid #ff6c2c;
+    cursor: pointer;
 }
 
 #IndicadorT{
     position: absolute;
-    margin-left: 2.5vw;
+    margin-left: 1vw;
 }
 
 #Descripcion{
     position: absolute;
-    margin-left: 10.2vw;
+    margin-left: 12.2vw;
 }
 
 #Categoria{
     position: absolute;
-    margin-left: 20.4vw;
+    margin-left: 23.4vw;
+}
+
+#CategoriaMove{
+    position: absolute;
+    margin-left: 23.8vw;
 }
 
 #FechaI{
     position: absolute;
-    margin-left: 28.2vw;
+    margin-left: 31.2vw;
 }
 
 #FechaF{
     position: absolute;
-    margin-left: 40vw;
+    margin-left: 43vw;
 }
 
 #Formula{
     position: absolute;
-    margin-left: 50.4vw;
+    margin-left: 52vw;
+}
+#FormulaMove{
+    position: absolute;
+    margin-left: 53vw;
 }
 
 #Frecuencia{
     position: absolute;
-    margin-left: 59.2vw;
+    margin-left: 60.2vw;
 }
 
 #Porcentaje{
@@ -242,4 +254,43 @@ body{
 #Area{
     position: absolute;
     margin-left: 74vw;
+}
+#AreaMove{
+    position: absolute;
+    margin-left: 74.8vw;
+}
+#AreaMove1{
+    position: absolute;
+    margin-left: 74.5vw;
+}
+
+#Lineas{
+    position: absolute;
+    margin-left: 81vw;
+    cursor: pointer;
+    width: 1.5vw;
+}
+
+#IndicadorUp{
+    margin-left: -1vw;
+}
+
+#DescripcionUp{
+    margin-left: 4vw;
+}
+
+#FormulaUp{
+    margin-left: -1.5vw;
+}
+
+#CategoriaUp{
+    margin-left: 1vw;
+}
+
+#CumplimientoUp{
+    margin-left: -1.4vw;
+}
+
+#link{
+    text-decoration: none;
 }

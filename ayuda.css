@@ -112,10 +112,16 @@ body{
 .barramedia{
     width: 100%;
     border-bottom: 1px solid gray;
-    margin-top:3vw ;
+    margin-top:5vw ;
     font-size: 1.3vw;
     
+    
 
+}
+.barramedia p{
+    margin-left: 2vw;
+    margin-top:-2vw ;
+    position: absolute;
 }
 
 .textos{

@@ -15,13 +15,14 @@
 
 body{
     height: 100vh;
-    overflow: hidden;
+    
     display: flex;
     background-color: white;
     width: 100%;
     height: 100vh;
     flex-direction: column;
     margin: 0 auto;
+    font-family: Regular;
 }
 
 .Superior{
@@ -34,7 +35,7 @@ body{
     margin-top: 0%;
     width: 100%;
     height: 3.5vw;
-    border-bottom: 2px solid gray;
+    border-bottom: 1vw solid #ff8c34;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -64,7 +65,7 @@ body{
     margin-top: 0;
     width: 30%;
     height: 3.5vw;
-    border-bottom: 2px solid gray;
+    border-bottom: 1vw solid #ff8c34;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -79,4 +80,145 @@ body{
 #CaraPedro{
     width: 2.5vw;
     height: 2.5vw;
+}
+
+.barramedia{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    margin-top:5vw ;
+    font-size: 1.3vw;
+    
+    
+
+}
+.barramedia p{
+    margin-left: 2vw;
+    margin-top:-2vw ;
+    position: absolute;
+}
+
+.indicador{
+    width: 40vw;
+    height: 2vw;
+    background-color: gray;
+    margin-top: 5vw;
+    margin-left: 2vw;
+    text-align: center;
+
+}
+
+.indicador p{
+    font-size: 2vw;
+}
+
+.descripcion{
+    width: 40vw;
+    height: 2vw;
+    background-color: gray;
+    margin-top: -4vw;
+    margin-left: 50vw;
+    text-align: center;
+}
+
+.descripcion p{
+    font-size: 2vw;
+}
+
+#flecha1{
+    position: absolute;
+    margin-top: 5.5vw;
+    margin-left: 40vw;
+    width: 1vw;
+    height: 1vw;
+}
+
+
+#flecha2{
+    position: absolute;
+    margin-top: -1.4vw;
+    margin-left: 88vw;
+    width: 1vw;
+    height: 1vw;
+}
+
+#flecha3{
+    position: absolute;
+    margin-top: 51vw;
+    margin-left: 43vw;
+    width: 1vw;
+    height: 1vw;
+}
+
+#cuadro1{
+    position: absolute;
+    width: 40vw;
+    height: 0vw;
+    background-color: gray;
+    margin-left: 2vw;
+    animation-duration: 3s;
+    margin-top: -52vw;
+
+}
+
+#cuadro2{
+    position: absolute;
+    width: 40vw;
+    height: 0vw;
+    background-color: gray;
+    margin-left: 50vw;
+    text-decoration: none;
+    border: 0;
+    outline: none;
+    cursor:default;
+    margin-top: -52vw;
+}
+
+#primero:checked~#cuadro1{
+    position: absolute;
+    width: 40vw;
+    height: 20vw;
+    background-color: gray;
+    margin-left: 2vw;
+    transition: 0.5s;
+
+}
+
+#primero{
+    display: none;
+}
+
+#segundo:checked~#cuadro2{
+    width: 40vw;
+    height: 20vw;
+    background-color: gray;
+    margin-left: 50vw;
+    transition: 0.5s;
+}
+
+#segundo{
+    display: none;
+}
+
+#TERCERO:checked~#cuadro3{
+    width: 39.6vw;
+    height: 20vw;
+    background-color: gray;
+    margin-left: 50vw;
+    transition: 0.5s;
+}
+
+#tercero{
+    display: none;
+}
+.dejasugerencias{
+    width: 40vw;
+    height: 3vw;
+    background-color: gray;
+    margin-top: 50vw;
+    margin-left: 5vw;
+    text-align: center;
+}
+
+.dejasugerencias input{
+    background-color: gray;
 }

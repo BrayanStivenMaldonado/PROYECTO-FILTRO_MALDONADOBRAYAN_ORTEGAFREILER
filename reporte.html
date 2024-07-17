@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reportes.css">
     <title>reportes</title>
 </head>
+
 <body>
     <div class="Superior">
         <div class="Navbar">
-            <a href="añadir.html"><p><img src="media/Add.png"><span id="NavText">Añadir</span></p></a>
-            <a href=""><p><img src="media/Reload.png"><span id="NavText">Refrescar</span></p></a>
-            <a href="eliminar.html"><p><img src="media/Delete.png"><span id="NavText">Eliminar</span></p></a>
+            <a href="añadir.html">
+                <p><img src="media/Add.png"><span id="NavText">Añadir</span></p>
+            </a>
+            <a href="">
+                <p><img src="media/Reload.png"><span id="NavText">Refrescar</span></p>
+            </a>
+            <a href="eliminar.html">
+                <p><img src="media/Delete.png"><span id="NavText">Eliminar</span></p>
+            </a>
             <a href="indicadores.html"><img id="LogoNav" src="media/LogoNav.png"></a>
-            <a href=""><p><img src="media/Report.png"><span id="NavText">Reportar</span></p></a>
-            <a href="ayuda.html"><p><img src="media/Help.png"><span id="NavText">Ayuda</span></p></a>
+            <a href="">
+                <p><img src="media/Report.png"><span id="NavText">Reportar</span></p>
+            </a>
+            <a href="ayuda.html">
+                <p><img src="media/Help.png"><span id="NavText">Ayuda</span></p>
+            </a>
         </div>
         <div class="Ajustes">
             <img src="media/Settings.png">
@@ -22,8 +34,44 @@
             <img id="CaraPedro" src="media/CaraPedro.png">
         </div>
     </div>
+    <div class="barramedia">
+        <p>REPORTES</p>
+    </div>
+    <div class="cajas">
+        <input type="checkbox" name="check" id="primero">
+        <label for="primero">
+            <img id="flecha1" src="media/flecha-hacia-abajo-para-navegar.png" alt="">
+
+        </label>
+
+        <div class="indicador">
+            <p>INDICADOR</p>
+        </div>
+
+        <input type="checkbox" name="check" id="segundo">
+        <label for="segundo">
+            <img id="flecha2" src="media/flecha-hacia-abajo-para-navegar.png" alt="">
+        </label>
+
+        <input type="checkbox" name="check" id="tercero">
+        <label for="tercero">
+            <img id="flecha3" src="media/flecha-hacia-abajo-para-navegar.png" alt="">
+        </label>
 
 
-    
+        <div class="descripcion">
+            <p>DESCRIPCION DEL ERROR</p>
+        </div>
+        <div class="dejasugerencias">
+            <p>DEJANOS TUS SUGERENCIAS</p>
+        </div>
+        <div id="cuadro1"></div>
+        <input id="cuadro2" type="text">
+        <input id="cuadro3" type="text">
+    </div>
+
+
+
 </body>
+
 </html>
