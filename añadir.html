@@ -19,7 +19,14 @@
         <div class="Ajustes">
             <img src="media/Settings.png">
             <img src="media/Notification.png">
-            <img id="CaraPedro" src="media/CaraPedro.png">
+            <input type="checkbox" name="Cara" id="Burger">
+            <label for="Burger">
+                <img id="CaraPedro" src="media/CaraPedro.png">
+            </label>
+            <div class="Menu">
+                <a href="">Mi Perfil</a>
+                <a href="">Cerrar Sesión</a>
+            </div>
         </div>
     </div>
     <div class="Contenido">
@@ -33,7 +40,12 @@
         </label>
         <label  for="">
             <p id="categoria">CATEGORIA</p>
-            <input id="tex1" type="text">
+            <select name="Categoria" id="SelectCate">
+                <option value=""></option>
+                <option value="">Baja</option>
+                <option value="">Media</option>
+                <option value="">Alta</option>
+            </select>
         </label>
         <label  for="">
             <p id="fecha_de_inicio">FECHA DE INICIO</p>
@@ -49,7 +61,12 @@
         </label>
         <label  for="">
             <p id="frecuencia">FRECUENCIA</p>
-            <input id="tex1" type="select">
+            <select name="Frecuencia" id="SelectFrec">
+                <option value=""></option>
+                <option value="">1/4</option>
+                <option value="">1/3</option>
+                <option value="">1/2</option>
+            </select>
         </label>
         <label  for="cumplimiento">
             <p id="cumplimiento">CUMPLIMIENTO</p>
@@ -62,10 +79,12 @@
                 <option value="">Marketing</option>
                 <option value="">Diseño</option>
                 <option value="">Developers</option>
-                <option value="">Gerencia</option>
-                <option value="">Producción</option>
+                <!-- <option value="">Gerencia</option>
+                <option value="">Producción</option> -->
             </select>
         </label>
        <a href=""><button id="Boton">Añadir Elemento</button></a>  
+    </div>
+    <div class="Pie"></div>
 </body>
 </html>

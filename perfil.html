@@ -3,26 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir</title>
     <link rel="stylesheet" href="perfil.css">
-    <title>mi perfil</title>
 </head>
 <body>
     <div class="Superior">
         <div class="Navbar">
             <a href=""><p><img src="media/Add.png"><span id="NavText">Añadir</span></p></a>
             <a href=""><p><img src="media/Reload.png"><span id="NavText">Refrescar</span></p></a>
-            <a href=""><p><img src="media/Delete.png"><span id="NavText">Eliminar</span></p></a>
-            <img id="LogoNav" src="media/LogoNav.png">
-            <a href=""><p><img src="media/Report.png"><span id="NavText">Reportar</span></p></a>
-            <a href=""><p><img src="media/Help.png"><span id="NavText">Ayuda</span></p></a>
+            <a href="eliminar.html"><p><img src="media/Delete.png"><span id="NavText">Eliminar</span></p></a>
+            <a href="indicadores.html"><img id="LogoNav" src="media/LogoNav.png"></a>
+            <a href="reporte.html"><p><img src="media/Report.png"><span id="NavText">Reportar</span></p></a>
+            <a href="ayuda.html"><p><img src="media/Help.png"><span id="NavText">Ayuda</span></p></a>
         </div>
         <div class="Ajustes">
             <img src="media/Settings.png">
             <img src="media/Notification.png">
-            <img id="CaraPedro" src="media/CaraPedro.png">
+            <input type="checkbox" name="Cara" id="Burger">
+            <label for="Burger">
+                <img id="CaraPedro" src="media/CaraPedro.png">
+            </label>
+            <div class="Menu">
+                <a href="">Mi Perfil</a>
+                <a href="">Cerrar Sesión</a>
+            </div>
         </div>
     </div>
-
-    
+    <div class="Contenido">
+        <p id="Perfil">Mi Perfil</p>
+        <div class="DatosPerfil">
+            <p><img id="Pedro" src="media/CaraPedroGrande.png"> <span id="Textito">Pedro_T1</span></p>
+            <div class="Nombre">Nombre Completo <br> <span>Pedro Felipe Gomez Bonilla</span></div>
+            <div class="Documento">Documento <br> <span>1.234.567.890</span></div>
+            <div class="Telefono">Teléfono <br> <span>390 31241148</span></div>
+            <div class="Correo">Correo Electronico <br> <span>PedroGomez@gmail.com</span></div>
+        </div>
+        <p id="Perfil1">Contraseña y Autenticación</p>
+        <button id="Verif">Verificar Contraseña</button>
+        <button id="Verif1">Cambiar Contraseña</button>
+        <p id="Perfil2">Actualizar Datos</p>
+        <div class="Actualizar">
+            <p id="UserName">Nombre de Usuario</p>
+            <input type="text" id="NombreC">
+            <p id="Cell">Teléfono</p>
+            <input type="number" id="Tele">
+            <p id="Correo">Correo Electronico</p>
+            <input type="text" id="CorreoC">
+        </div>
+        <a href=""><button id="Guardar" >Guardar Cambios</button></a>
+    </div>
+        
+    <div class="Pie"></div>
 </body>
 </html>

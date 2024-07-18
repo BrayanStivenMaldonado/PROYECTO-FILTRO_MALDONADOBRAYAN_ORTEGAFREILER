@@ -35,7 +35,7 @@ body{
     margin-top: 0%;
     width: 100%;
     height: 3.5vw;
-    border-bottom: 1vw solid #ff8c34;
+    border-bottom: 2vw solid #ff6c2c;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -66,7 +66,7 @@ body{
     margin-top: 0;
     width: 30%;
     height: 3.5vw;
-    border-bottom: 1vw solid #ff8c34;
+    border-bottom: 2vw solid #ff6c2c;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -76,11 +76,13 @@ body{
     width: 1vw;
     height: 1vw;
     padding-left: 1vw;
+    cursor: pointer;
 }
 
 #CaraPedro{
     width: 2.5vw;
     height: 2.5vw;
+    padding-right: 2vw;
 }
 
 .Contenido{
@@ -94,49 +96,54 @@ body{
 
 
 #indicador{
-    width:20vw ;
+    border-radius: 2vw;
+    text-align: center;
+    width:8vw;
     font-size: 1.5vw;
-    margin-left: 9vw ;
+    margin-left: 6vw;
+    z-index: 2;
 }
 
 #descripcion{
-    width:20vw ;
+    width: 11vw ;
     font-size: 1.5vw;
-    margin-left: 9vw ;
+    margin-left: 6.4vw ;
 }
 #categoria{
     width:20vw ;
     font-size: 1.5vw;
-    margin-left: 9vw ;
+    margin-left: 6vw ;
 }
 #fecha_de_inicio{
     width:20vw ;
     font-size: 1.5vw;
-    margin-left: 9vw ;
+    margin-left: 6.3vw ;
     margin-top: -2vw;
 }
 #fecha_de_terminacion{
     width:20vw ;
     font-size: 1.5vw;
-    margin-left: 7vw ;
+    margin-left: 6.3vw ;
     margin-top: -2vw;
 }
 #datetime{
     width: 20vw;
     height: 5vw;
     margin-left: 5vw ;
-    border: 1px solid orange;
+    border: 2px solid orange;
+    box-shadow: 1px 1px 1px 1px rgb(207, 207, 207);
     border-radius: 1.5vw;
-    color: gray;
+    color: rgb(0, 0, 0);
     margin-top: -1vw;
     font-size: 2vw;
-    text-align: center;
+    text-align: left;
 }
 #tex1{
     width: 20vw;
     height: 5vw;
     margin-left: 5vw ;
-    border: 1px solid orange;
+    border: 2px solid orange;
+    box-shadow: 1px 1px 1px 1px rgb(207, 207, 207);
     border-radius: 1.5vw;
     margin-top: -1vw;
     text-align: left;
@@ -146,53 +153,139 @@ body{
 #formula{
     width:20vw ;
     font-size: 1.5vw;
-    margin-left: 7vw ;
+    margin-left: 6.2vw ;
     margin-top: -2vw;
 }
 
 #frecuencia{
     width:20vw ;
     font-size: 1.5vw;
-    margin-left: 7vw ;
+    margin-left: 6vw ;
     margin-top: -2vw;
 }
 
 #cumplimiento{
     width:20vw ;
     font-size: 1.5vw;
-    margin-left: 7vw ;
+    margin-left: 6.3vw ;
     margin-top: -2vw;
 }
 
 #area{
     width:20vw ;
     font-size: 1.5vw;
-    margin-left: 7vw ;
+    margin-left: 6.4vw ;
     margin-top: -2vw;
+
 }
 
 #Boton{
     position: absolute;
-    background-color: #ff8c34;
+    background-color: #ff6c2c;
     color: white;
     border-radius: 2vw ;
-    border: 1px solid #ff8c34;
+    border: 1px solid #ff6c2c;
     text-decoration: none;
     width: 13vw;
     height: 3vw;
     left: 42.5vw;
-    margin-top: -4vw;
+    margin-top: -2vw;
     cursor: pointer;
     font-size: 1.4vw;
+    font-family: Light;
 }
 
 #SelectArea{
     width: 20vw;
     height: 5.5vw;
     margin-left: 5vw ;
-    border: 1px solid orange;
+    border: 2px solid orange;
+    box-shadow: 1px 1px 1px 1px rgb(207, 207, 207);;
     border-radius: 1.5vw;
     margin-top: -1.2vw;
     text-align: left;
     font-size: 2vw;
+    outline: none;
+}
+
+#SelectFrec{
+    width: 20vw;
+    height: 5.5vw;
+    margin-left: 5vw ;
+    border: 2px solid orange;
+    box-shadow: 1px 1px 1px 1px rgb(207, 207, 207);
+    border-radius: 1.5vw;
+    margin-top: -1.2vw;
+    text-align: left;
+    font-size: 2vw;
+    outline: none;
+}
+
+#SelectCate{
+    width: 20vw;
+    height: 5.5vw;
+    margin-left: 5vw ;
+    border: 2px solid orange;
+    box-shadow: 1px 1px 1px 1px rgb(207, 207, 207);;
+    border-radius: 1.5vw;
+    margin-top: -1.2vw;
+    text-align: left;
+    font-size: 2vw;
+    outline: none;
+}
+
+.Pie{
+    width: 100%;
+    height: 2vw;
+    background-color: #ff6c2c;
+}
+
+input{
+    outline: none;
+}
+
+option:checked{
+    background-color: #ff6c2c;
+}
+
+input[type="select"]{
+    text-align: center;
+        border: 2px solid orange;
+    box-shadow: 1px 1px 1px 1px rgb(207, 207, 207);
+}
+
+.Menu{
+    position: absolute;
+    display: flex;
+    width: 6vw;
+    height: 0vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    background-color: #ff6c2c;
+    margin-top: 8vw;
+    margin-right: 4vw;
+    overflow: hidden;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+.Menu a{
+    padding: 0.3vw;
+    font-family: Light;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.Menu a:hover{
+    color: white;
+}
+
+#Burger:checked~.Menu{
+    transition: 0.3s;
+    width: 6vw;
+    height: 4vw;
 }
