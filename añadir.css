@@ -241,6 +241,7 @@ input {
   outline: none;
 }
 
+
 option:checked {
   background-color: #ff6c2c;
 }

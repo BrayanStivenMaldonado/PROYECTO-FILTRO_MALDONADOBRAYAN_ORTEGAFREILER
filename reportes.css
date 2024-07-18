@@ -217,7 +217,6 @@ body {
 }
 
 .Pie {
-  margin-top: 11.5vw;
   width: 100%;
   height: 2vw;
   background-color: #ff6c2c;
@@ -257,4 +256,13 @@ input[type="checkbox"] {
   transition: 0.3s;
   width: 6vw;
   height: 4vw;
+}
+
+.Contenido {
+  margin-left: 0%;
+  width: 100%;
+  height: 96.5vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 2vw;
 }
