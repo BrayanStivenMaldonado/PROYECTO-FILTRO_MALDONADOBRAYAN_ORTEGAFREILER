@@ -1,84 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reportes.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reportes.css" />
     <title>reportes</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="Superior">
-        <div class="Navbar">
-            <a href="añadir.html">
-                <p><img src="media/Add.png"><span id="NavText">Añadir</span></p>
-            </a>
-            <a href="">
-                <p><img src="media/Reload.png"><span id="NavText">Refrescar</span></p>
-            </a>
-            <a href="eliminar.html">
-                <p><img src="media/Delete.png"><span id="NavText">Eliminar</span></p>
-            </a>
-            <a href="indicadores.html"><img id="LogoNav" src="media/LogoNav.png"></a>
-            <a href="">
-                <p><img src="media/Report.png"><span id="NavText">Reportar</span></p>
-            </a>
-            <a href="ayuda.html">
-                <p><img src="media/Help.png"><span id="NavText">Ayuda</span></p>
-            </a>
+      <div class="Navbar">
+        <a href="añadir.html">
+          <p><img src="media/Add.png" /><span id="NavText">Añadir</span></p>
+        </a>
+        <a href="">
+          <p>
+            <img src="media/Reload.png" /><span id="NavText">Refrescar</span>
+          </p>
+        </a>
+        <a href="eliminar.html">
+          <p>
+            <img src="media/Delete.png" /><span id="NavText">Eliminar</span>
+          </p>
+        </a>
+        <a href="indicadores.html"
+          ><img id="LogoNav" src="media/LogoNav.png"
+        /></a>
+        <a href="">
+          <p>
+            <img src="media/Report.png" /><span id="NavText">Reportar</span>
+          </p>
+        </a>
+        <a href="ayuda.html">
+          <p><img src="media/Help.png" /><span id="NavText">Ayuda</span></p>
+        </a>
+      </div>
+      <div class="Ajustes">
+        <img src="media/Settings.png" />
+        <img src="media/Notification.png" />
+        <input type="checkbox" name="Cara" id="Burger" />
+        <label for="Burger">
+          <img id="CaraPedro" src="media/CaraPedro.png" />
+        </label>
+        <div class="Menu">
+          <a href="perfil.html">Mi Perfil</a>
+          <a href="">Cerrar Sesión</a>
         </div>
-        <div class="Ajustes">
-            <img src="media/Settings.png">
-            <img src="media/Notification.png">
-            <img id="CaraPedro" src="media/CaraPedro.png">
-        </div>
+      </div>
     </div>
     <div class="barramedia">
-        <p>REPORTES</p>
+      <p>REPORTES</p>
     </div>
     <div class="cajas">
-        <input type="checkbox" name="check" id="primero">
-        <label for="primero">
+      <input type="checkbox" name="check" id="primero" />
+      <label for="primero"> </label>
 
-        </label>
+      <div class="indicador">
+        <p>INDICADOR</p>
+      </div>
+      <div id="cuadro1">
+        <select name="opciones" id="opt">
+          <option value=""></option>
+          <option value="">MODELADO 3D</option>
+          <option value="">FINCA GALEON</option>
+          <option value="">COLEGIOS PRIVADOS</option>
+          <option value="">ELECTRODOMESTICOS</option>
+          <option value="">ESTRATO 2-FLORIDABLANCA</option>
+        </select>
+      </div>
 
-        <div class="indicador">
-            <p>INDICADOR</p>
+      <div class="descripcion">
+        <p>DESCRIPCION DEL ERROR</p>
+      </div>
+      <div><input id="input1" type="text" /></div>
 
-        </div>
-        <div id="cuadro1">
-            <select name="opciones" id="opt">
-                <option value=""></option>
-                <option value="">MODELADO 3D</option>
-                <option value="">FINCA GALEON</option>
-                <option value="">COLEGIOS PRIVADOS</option>
-                <option value="">ELECTRODOMESTICOS</option>
-                <option value="">ESTRATO 2-FLORIDABLANCA</option>
-            </select>
-        </div>
-
-
-        <div class="descripcion">
-            <p>DESCRIPCION DEL ERROR</p>
-        </div>
-        <div><input id="input1" type="text"></div>
-
-        <div class="suegerencias">
-            <p>DEJANOS TUS SUGERENCIAS</p>
-            <div id="sugerencia"><input id="input2" type="text"></div>
-            <a href=""><button id="Boton">reportar</button></a>
-            <div class="Pie"></div>
-        </div>
-
+      <div class="suegerencias">
+        <p>DEJANOS TUS SUGERENCIAS</p>
+        <div id="sugerencia"><input id="input2" type="text" /></div>
+        <a href=""><button id="Boton">reportar</button></a>
+        <div class="Pie"></div>
+      </div>
     </div>
-    
-
-
-   
-
-
-
-</body>
-
+  </body>
 </html>
