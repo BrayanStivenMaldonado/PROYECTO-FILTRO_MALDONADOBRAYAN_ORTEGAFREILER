@@ -143,8 +143,8 @@ body{
 
 #flecha3{
     position: absolute;
-    margin-top: 51vw;
-    margin-left: 43vw;
+    margin-top: 31vw;
+    margin-left: 40vw;
     width: 1vw;
     height: 1vw;
 }
@@ -156,22 +156,23 @@ body{
     background-color: gray;
     margin-left: 2vw;
     animation-duration: 3s;
-    margin-top: -52vw;
+    margin-top: -33vw;
 
 }
 
 #cuadro2{
     position: absolute;
-    width: 40vw;
+    width: 39.3vw;
     height: 0vw;
     background-color: gray;
     margin-left: 50vw;
     text-decoration: none;
-    border: 0;
+    border: none;
     outline: none;
     cursor:default;
-    margin-top: -52vw;
+    margin-top: -33vw;
 }
+
 
 #primero:checked~#cuadro1{
     position: absolute;
@@ -188,22 +189,23 @@ body{
 }
 
 #segundo:checked~#cuadro2{
-    width: 40vw;
+    width: 39.2vw;
     height: 20vw;
     background-color: gray;
     margin-left: 50vw;
     transition: 0.5s;
+    margin-top: 3;
 }
 
 #segundo{
     display: none;
+    
 }
 
-#TERCERO:checked~#cuadro3{
+#tercero:checked~#cuadro3{
     width: 39.6vw;
     height: 20vw;
     background-color: gray;
-    margin-left: 50vw;
     transition: 0.5s;
 }
 
@@ -214,11 +216,21 @@ body{
     width: 40vw;
     height: 3vw;
     background-color: gray;
-    margin-top: 50vw;
-    margin-left: 5vw;
+    margin-top: 30vw;
+    margin-left: 2vw;
     text-align: center;
+    font-size: 2vw;
 }
 
-.dejasugerencias input{
+#cuadro3{
+    position: absolute;
+    width: 39.4vw;
+    height: 0vw;
     background-color: gray;
+    margin-left: 2vw;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor:default;
+    margin-top: 0vw;
 }
