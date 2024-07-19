@@ -159,3 +159,68 @@ body {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+
+
+@media (max-width: 431px) {
+  body{
+    background-image: url(media/Fondo.png);
+    background-color: black;
+    background-size: 500vw;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+  }
+
+  #Logo{
+    width: 50vw;
+    margin-top: 100vw;
+  }
+
+  #Loguito{
+    width: 15vw;
+  }
+
+  #Texto1{
+    font-size: 5vw;
+  }
+
+  #Texto2{
+    margin-top: -1vw;
+    font-size: 3vw;
+  }
+
+  .Log{
+    width: 80vw;
+    height: 90vw;
+    margin-top: 120vw;
+  }
+
+  #UserText{
+    font-size: 5vw;
+  }
+
+  #Usuario{
+    width: 80%;
+    height: 4vw;
+  }
+
+  #Contra{
+    font-size: 5vw;
+  }
+
+  #Password{
+    width: 80%;
+    height: 4vw;
+  }
+
+  .Ingresar{
+    width: 40vw;
+    height: 8vw;
+    font-size: 4vw;
+  }
+
+  #Question{
+    font-size: 3vw;
+    margin-top: 8vw;
+  }
+}
