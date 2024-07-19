@@ -44,6 +44,22 @@ body {
   font-size: 1vw;
 }
 
+#Nose{
+  opacity: 0%;
+  position: absolute;
+
+}
+
+#MenuHamb{
+  opacity: 100%;
+  position: absolute;
+}
+
+.MenuHamburguesa{
+  position: absolute;
+  display: none;
+}
+
 #NavText {
   position: absolute;
   margin-top: 0.3vw;
@@ -179,7 +195,6 @@ body {
 }
 
 .Pie {
-  margin-top: 1.1vw;
   width: 100%;
   height: 2vw;
   background-color: #ff6c2c;
@@ -221,3 +236,283 @@ input[type="checkbox"] {
   height: 4vw;
 }
  
+
+@media (max-width: 431px) {
+
+  body {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: Regular;
+    overflow: scroll;
+    
+  }
+  
+  .Superior {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .Navbar {
+    padding-left: 9vw;
+    margin-top: 0%;
+    width: 100%;
+    height: 15vw;
+    border-bottom: 2vw solid #ff6c2c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Regular;
+    font-size: 2vw;
+  }
+  
+  #NavText {
+    position: absolute;
+    margin-top: 0.3vw;
+    margin-left: 0.5vw;
+    text-decoration: none;
+    color: black;
+    display: none;
+  }
+  
+  .Navbar img {
+    width: 3vw;
+    display: none;
+  }
+
+  #LogoNav {
+    width: 2vw;
+  }
+  
+  .Ajustes {
+    padding-left: -10vw;
+    margin-top: 0;
+    width: 30%;
+    height: 15vw;
+    border-bottom: 2vw solid #ff6c2c;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  
+  .Ajustes img {
+    width: 5vw;
+    height: 5vw;
+    padding-left: 1vw;
+    cursor: pointer;
+  }
+  
+  #CaraPedro {
+    width: 10vw;
+    height: 10vw;
+    padding-right: 2vw;
+  }
+  
+  .Contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ayuda{
+    margin-left: -54vw;
+  }
+
+  #ayuda1{
+    width: 80vw;
+    height: 12vw;
+    font-size: 5vw;
+  }
+
+  #lupa{
+    width: 9vw;
+    margin-left: 18vw;
+    margin-top: 6vw;
+  }
+
+  .barramedia{
+    margin-top: 12vw;
+    border-bottom: 1vw solid gray;
+  }
+
+  .barramedia p{
+    font-size: 5.7vw;
+    margin-top: -7vw;
+  }
+
+  .textos{
+    display: flex;
+    flex-direction: column;
+    font-size: 4vw;
+    text-align: center;
+    margin-left: 3vw;
+  }
+
+  .texto2{
+    margin-top: 20vw;
+  }
+
+  #mapa{
+    position: absolute;
+    width: 12vw;
+    margin-top: 11vw;
+    margin-left: 12vw;
+  }
+
+  #verubicacion{
+    position: absolute;
+    font-size: 4vw;
+    margin-top: 25vw;
+    margin-left: 6vw;
+    cursor: pointer;
+  }
+
+  #telefono{
+    width: 12vw;
+    position: absolute;
+    margin-left: 12vw;
+    margin-top: 43vw;
+  }
+
+  .caja1{
+    font-size: 4vw;
+    width: 40vw;
+    position: absolute;
+    margin-top: 55vw;
+    margin-left: -1vw;
+  }
+
+  .texto3{
+    margin-top: 44vw;
+  }
+
+  #buzon{
+    width: 12vw;
+    position: absolute;
+    margin-left: 12vw;
+    margin-top: 100vw;
+  }
+
+  .caja2{
+    font-size: 4vw;
+    width: 40vw;
+    position: absolute;
+    margin-top: 112vw;
+    margin-left: -2vw;
+  }
+
+  .Menu {
+    position: absolute;
+    display: flex;
+    width: 10vw;
+    height: 0vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    background-color: #ff6c2c;
+    margin-top: 30vw;
+    margin-right: 4vw;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  .Menu a {
+    padding: 0.3vw;
+    font-family: Light;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 5vw;
+  }
+  
+  .Menu a:hover {
+    color: white;
+  }
+  
+  #Burger:checked ~ .Menu {
+    transition: 0.3s;
+    width: 30vw;
+    height: 15vw;
+  }
+
+  #Nose{
+    opacity: 100%;
+  }
+
+  #MenuHamb{
+    opacity: 100%;
+    width: 10vw;
+    display: inline;
+    margin-left: -32vw;
+    margin-top: -4vw;
+  }
+  
+  .MenuHamburguesa{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 0vw;
+    background-color: rgb(235, 235, 235);
+    margin-top: 82vw;
+    margin-left: -40vw;
+    overflow: hidden;
+    align-items: left;
+    text-align: center;
+    border-radius: 5vw;
+    z-index: 1;
+  }
+
+
+  .MenuHamburguesa img{
+    display: inline;
+    width: 5vw;
+  }
+  .MenuHamburguesa a{
+  text-decoration: none;
+  }
+
+  #NavT{
+    display: inline;
+    text-align: center;
+    font-size: 5vw;
+    text-decoration: none;
+    color: black;
+  }
+
+  #Main:checked~.MenuHamburguesa{
+    width: 35vw;
+    height: 64vw;
+    transition: 0.1s;
+  }
+
+  .MenuHamburguesa #NavT:hover {
+    color: #ff6c2c;
+  }
+
+  #Inicio{
+    margin-left: -0.3vw;
+  }
+  #Add{
+    margin-left: 0vw;
+  }
+  #Refresh{
+    margin-left: 4vw;
+  }
+  #Remove{
+    margin-left: 2.5vw;
+  }
+  #Report{
+    margin-left: 2.7vw;
+  }
+  #Help{
+    margin-left: -1vw;
+  }
+}

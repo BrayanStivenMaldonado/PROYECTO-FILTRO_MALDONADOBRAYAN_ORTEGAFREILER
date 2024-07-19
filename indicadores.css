@@ -114,6 +114,67 @@ body {
   justify-content: space-around;
 }
 
+svg{
+  width: 9vw;
+  height: 9vw;
+}
+circle{
+  fill: none;
+  stroke-width: 0.3vw;
+  stroke-dasharray: 92 100;
+  transform: rotate(-73deg);
+  transform-origin: 50%;
+}
+.c1{
+  top: 0.6vw;
+  left: 73.5vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  stroke: red;
+  margin-left: 67.5vw;
+}  
+
+.c2{
+  top: 0.6vw;
+  left: 73.5vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  stroke: red;
+  margin-left: 67.5vw;
+}
+.c3{
+  top: 0.6vw;
+  left: 73.5vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  stroke: rgb(0, 192, 0);
+  margin-left: 67.5vw;
+}
+.c4{
+  top: 0.6vw;
+  left: 73.5vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  stroke: red;
+  margin-left: 67.5vw;
+}
+.c5{
+  top: 0.6vw;
+  left: 73.5vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  stroke: rgb(0, 192, 0);
+  margin-left: 67.5vw;
+}
+.c6{
+  top: 0.6vw;
+  left: 73.5vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  stroke: orange;
+  margin-left: 67.5vw;
+}
+
 .Datos1 {
   width: 80%;
   height: 4vw;
@@ -247,9 +308,15 @@ body {
   margin-left: 60.2vw;
 }
 
-#Porcentaje {
+.porcentaje {
   position: absolute;
   margin-left: 68vw;
+}
+
+.c1{
+  position: absolute;
+  margin-top: 13vw;
+  margin-left: 4vw;
 }
 
 #Area {
@@ -330,4 +397,8 @@ body {
 
 input {
   display: none;
+}
+
+@media (max-width: 431px) {
+  
 }

@@ -21,6 +21,7 @@ body {
 }
 
 .Login {
+  position: absolute;
   background-image: url(media/Fondo.png);
   background-size: 100vw;
   background-position: center;
@@ -106,4 +107,395 @@ body {
   100% {
     opacity: 1000%;
   }
+}
+
+.ContenidoG {
+  position: absolute;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  margin: 0 auto;
+  animation-name: Aparecer;
+  animation-duration: 3.8s;
+  opacity: 100%;
+}
+
+@keyframes Aparecer {
+  0%{opacity: 0%;}
+  95%{opacity: 0%;}
+  100%{opacity: 100%;}
+  
+}
+
+.Superior {
+  display: flex;
+  flex-direction: row;
+}
+
+.Navbar {
+  padding-left: 9vw;
+  margin-top: 0%;
+  width: 100%;
+  height: 3.5vw;
+  border-bottom: 2px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  font-family: Regular;
+  font-size: 1vw;
+}
+
+#NavText {
+  position: absolute;
+  margin-top: 0.3vw;
+  margin-left: 0.5vw;
+  text-decoration: none;
+  color: black;
+}
+
+.Navbar img {
+  width: 1.5vw;
+}
+
+#LogoNav {
+  width: 2vw;
+}
+
+.Ajustes {
+  padding-left: -10vw;
+  margin-top: 0;
+  width: 30%;
+  height: 3.5vw;
+  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.Ajustes img {
+  width: 1vw;
+  height: 1vw;
+  padding-left: 1vw;
+  cursor: pointer;
+}
+
+#CaraPedro {
+  width: 2.5vw;
+  height: 2.5vw;
+  padding-right: 2vw;
+}
+
+.Contenido {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Panel {
+  margin-top: 1vw;
+  font-family: Regular;
+  font-size: 2vw;
+}
+
+svg{
+  width: 9vw;
+  height: 9vw;
+}
+circle{
+  fill: none;
+  stroke-width: 0.3vw;
+  stroke-dasharray: 92 100;
+  transform: rotate(-73deg);
+  transform-origin: 50%;
+}
+.c1{
+  top: 0.6vw;
+  left: 73.5vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  stroke: red;
+  margin-left: 67.5vw;
+}  
+
+.c2{
+  top: 0.6vw;
+  left: 73.5vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  stroke: red;
+  margin-left: 67.5vw;
+}
+.c3{
+  top: 0.6vw;
+  left: 73.5vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  stroke: rgb(0, 192, 0);
+  margin-left: 67.5vw;
+}
+.c4{
+  top: 0.6vw;
+  left: 73.5vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  stroke: red;
+  margin-left: 67.5vw;
+}
+.c5{
+  top: 0.6vw;
+  left: 73.5vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  stroke: rgb(0, 192, 0);
+  margin-left: 67.5vw;
+}
+.c6{
+  top: 0.6vw;
+  left: 73.5vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  stroke: orange;
+  margin-left: 67.5vw;
+}
+
+#Texto1 {
+  font-family: Light;
+  font-size: 1vw;
+  margin-top: -0.3vw;
+}
+
+.Nombres {
+  width: 78%;
+  height: 2vw;
+  font-family: Regular;
+  font-size: 1.1vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Datos1 {
+  width: 80%;
+  height: 4vw;
+  font-family: Light;
+  font-size: 1vw;
+  border: 1px solid gray;
+  border-radius: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Datos2 {
+  margin-top: 0.7vw;
+  width: 80%;
+  height: 4vw;
+  font-family: Light;
+  font-size: 1vw;
+  border: 1px solid gray;
+  border-radius: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Datos3 {
+  margin-top: 0.7vw;
+  width: 80%;
+  height: 4vw;
+  font-family: Light;
+  font-size: 1vw;
+  border: 1px solid gray;
+  border-radius: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Datos4 {
+  margin-top: 0.7vw;
+  width: 80%;
+  height: 4vw;
+  font-family: Light;
+  font-size: 1vw;
+  border: 1px solid gray;
+  border-radius: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Datos5 {
+  margin-top: 0.7vw;
+  width: 80%;
+  height: 4vw;
+  font-family: Light;
+  font-size: 1vw;
+  border: 1px solid gray;
+  border-radius: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Datos6 {
+  margin-top: 0.7vw;
+  width: 80%;
+  height: 4vw;
+  font-family: Light;
+  font-size: 1vw;
+  border: 1px solid gray;
+  border-radius: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#Boton {
+  margin-top: 2vw;
+  width: 15vw;
+  text-decoration: none;
+  height: 3vw;
+  font-family: Light;
+  color: white;
+  font-size: 1.2vw;
+  background-color: #ff6c2c;
+  border-radius: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ff6c2c;
+  cursor: pointer;
+}
+
+#IndicadorT {
+  position: absolute;
+  margin-left: 1vw;
+}
+
+#Descripcion {
+  position: absolute;
+  margin-left: 12.2vw;
+}
+
+#Categoria {
+  position: absolute;
+  margin-left: 23.4vw;
+}
+
+#CategoriaMove {
+  position: absolute;
+  margin-left: 23.8vw;
+}
+
+#FechaI {
+  position: absolute;
+  margin-left: 31.2vw;
+}
+
+#FechaF {
+  position: absolute;
+  margin-left: 43vw;
+}
+
+#Formula {
+  position: absolute;
+  margin-left: 52vw;
+}
+#FormulaMove {
+  position: absolute;
+  margin-left: 53vw;
+}
+
+#Frecuencia {
+  position: absolute;
+  margin-left: 60.2vw;
+}
+
+.porcentaje {
+  position: absolute;
+  margin-left: 68vw;
+}
+
+#Area {
+  position: absolute;
+  margin-left: 74vw;
+}
+#AreaMove {
+  position: absolute;
+  margin-left: 74.8vw;
+}
+#AreaMove1 {
+  position: absolute;
+  margin-left: 74.5vw;
+}
+
+#Lineas {
+  position: absolute;
+  margin-left: 81vw;
+  cursor: pointer;
+  width: 1.5vw;
+}
+
+#IndicadorUp {
+  margin-left: -1vw;
+}
+
+#DescripcionUp {
+  margin-left: 4vw;
+}
+
+#FormulaUp {
+  margin-left: -1.5vw;
+}
+
+#CategoriaUp {
+  margin-left: 1vw;
+}
+
+#CumplimientoUp {
+  margin-left: -1.4vw;
+}
+
+#link {
+  text-decoration: none;
+}
+
+.Menu {
+  position: absolute;
+  display: flex;
+  width: 6vw;
+  height: 0vw;
+  display: flex;
+  flex-direction: column;
+  font-size: 1vw;
+  background-color: #ff6c2c;
+  margin-top: 7.5vw;
+  margin-right: 4vw;
+  overflow: hidden;
+}
+
+.Menu a {
+  padding: 0.3vw;
+  font-family: Light;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.Menu a:hover {
+  color: white;
+}
+
+#Burger:checked ~ .Menu {
+  transition: 0.3s;
+  width: 6vw;
+  height: 4vw;
+}
+
+input {
+  display: none;
 }
